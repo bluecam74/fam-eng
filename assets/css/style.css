@@ -112,10 +112,15 @@ margin-right: 40px;
     font-size: 50px!important;
     color: #7A7A7A;
 }
+.serv
+{
+    align-items: center;
+}
 .serv1 
 {
-    height: 200px;
-    width: 300px;
+    min-height: 200px;
+    min-width: 120px;
+    margin: 0 5% 0 5%;
     background-color: #247BA0;
     color: #FFFCFF;
     font-size: 20px;
@@ -123,11 +128,13 @@ margin-right: 40px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-right: 0;
 }
 
 a.serv1 
 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-right: 0;
 }
 
@@ -139,12 +146,102 @@ a.serv1:hover
     
 }
 
+.card-title-contact
+{
+    font-family: 'Cinzel', serif;
+    margin-top: 20px!important;
+    margin-bottom: 40px!important;
+    font-size: 45px!important;
+    color: #7A7A7A;
+}
+
+.input-field label 
+{
+    color: #247BA0;
+}
+
+.input-field input[type=text]:focus + label 
+{
+    color: #247BA0;
+}
+
+.val-icon
+{
+    color: #FFA400;
+    text-align: center;
+    margin: 10 0;
+}
+
+.value 
+{
+    background-color:#247BA0;
+    min-height: 250px;
+    margin: 0 3%;
+    padding: 15px;
+    
+}
+
+.val-name 
+{
+    font-family: 'Economica', sans-serif;
+    font-size: 27px;
+    color: #FFFCFF;
+
+}
+
+.val-desc 
+{
+    padding: 10px;
+    font-size: 22px; 
+    font-family: 'Economica', sans-serif;
+    color: #FFFCFF;
+}
+
+.form-cont
+{
+    text-align: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.form-card 
+{
+    text-align: center;
+    align-content: center;
+
+}
+
+.serv-desc
+{
+    font-family: 'Taviraj', serif;
+    color: #7A7A7A;
+    font-size: 20px;
+}
+.mech-card
+{
+    border-top: none;
+}
+.mech-des-title
+{
+    font-family: 'Cinzel', serif;
+    margin-bottom: 40px!important;
+    font-size: 50px!important;
+    color: #7A7A7A;
+    margin-left: 40px;
+}
+.what-slogan
+{
+    color: black;
+    font-size: 50px!important;
+}
+.mech-icon
+{
+    color: #7A7A7A;
+}
+
+
 .border_test 
 {
     border: 1px solid black;
 }
-/* .waves-effect.waves-brown .waves-ripple
-{
-    background-color: #FFA400;
-} */
+
 
