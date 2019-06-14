@@ -1,0 +1,150 @@
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Economica', sans-serif;
+font-family: 'Taviraj', serif;
+font-family: 'Adamina', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Playfair Display SC', serif;
+ */
+
+body 
+{
+    /* background-image: url("bibhash-das.jpg"); */
+    background-color: #FFFCFF;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main 
+{
+    flex: 1 0 auto;
+}
+
+.nav-1 {
+    background-color: #FFFCFF;
+    margin-bottom: 0;
+}
+
+.nav-1 a
+{ 
+    color: #7A7A7A;
+}
+
+.nav-1 ul li a 
+{
+ color: #FFA400; 
+ font-size: 22px;
+ font-family: 'Cinzel', serif;
+}
+
+.fam-logo 
+{
+    margin-left: 40px;
+    color: #7A7A7A;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.nav-1 ul 
+{
+margin-right: 40px;
+}
+
+.border-bottom 
+{
+    border-bottom: 3px solid #247BA0;
+}
+
+.card-1 
+{
+    background-color: #247BA0;
+    margin-top: 0px;
+    height: 500px;
+}
+
+.card-1 span
+{
+    color: #FFFCFF;
+    font-family: 'Playfair Display SC', serif;
+    margin: 30px;
+}
+
+.card-1 p 
+{
+    padding: 100px;
+    font-family: 'Taviraj', serif;
+    color: #7A7A7A;
+    font-size: 30px;
+}
+.card-2
+{
+    background-color: #FFFCFF;
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.temp-logo-cont {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.temp-logo-img
+{
+    height: 200px;
+}
+
+.no-shadows {
+    box-shadow: none!important;
+}
+
+.copyright 
+{
+    text-align: center;
+    height: 27px;
+    padding: 0;
+    background-color: #7A7A7A;
+    margin-top: 30px;
+}
+.card-title-1 
+{
+    font-family: 'Cinzel', serif;
+    margin-bottom: 40px!important;
+    font-size: 50px!important;
+    color: #7A7A7A;
+}
+.serv1 
+{
+    height: 200px;
+    width: 300px;
+    background-color: #247BA0;
+    color: #FFFCFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0;
+}
+
+a.serv1 
+{
+    margin-right: 0;
+}
+
+a.serv1:hover 
+{
+    background-color: #FFA400;
+    color: #FFFCFF;
+    text-decoration: none;
+    
+}
+
+.border_test 
+{
+    border: 1px solid black;
+}
+/* .waves-effect.waves-brown .waves-ripple
+{
+    background-color: #FFA400;
+} */
+
