@@ -101,9 +101,10 @@ margin-right: 40px;
 {
     text-align: center;
     height: 27px;
-    padding: 0;
+    padding: 3px;
     background-color: #7A7A7A;
     margin-top: 30px;
+    color: #FFFCFF;
 }
 .card-title-1 
 {
@@ -238,6 +239,18 @@ a.serv1:hover
     color: #7A7A7A;
 }
 
+.submit-form
+{
+    background-color: #247BA0;
+}
+
+.submit-form:hover 
+{
+    background-color: #FFA400;
+    color: #FFFCFF;
+    text-decoration: none;
+    
+}
 
 .border_test 
 {

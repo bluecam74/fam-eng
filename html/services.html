@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Adamina|Cinzel|Economica|Julius+Sans+One|Playfair+Display+SC|Taviraj&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>Familiar Engineering</title>
 </head>
+
 <body>
     <main>
-        <nav class="no-shadows border-bottom">
+        <nav class="no-shadows">
             <div class="nav-wrapper nav-1">
                 <a href="../index.html" class="brand-logo fam-logo">Familiar Engineering</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./about.html">About</a></li>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./html/about.html">About</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
                 </ul>
             </div>
         </nav>
@@ -33,7 +42,8 @@
                 <div class="row center-align">
                     <div class="col s4 center-align">
                         <div class="serv">
-                            <a href="./mech-des.html" class="waves-effect btn-flat center-align serv1">Mechanical Design</a>
+                            <a href="./mech-des.html" class="waves-effect btn-flat center-align serv1">Mechanical
+                                Design</a>
                         </div>
                     </div>
                     <div class="col s4 text-center">
@@ -61,13 +71,19 @@
                     </div>
                     <div class="col s4 text-center"></div>
                 </div>
-          
+
             </div>
         </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</main>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+       <script>
+          $(".button-collapse").sideNav();
+       </script>
+    </main>
 </body>
 <footer class="page-footer copyright">
     © 2019 Copyright
 </footer>
+
 </html>
