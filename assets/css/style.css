@@ -19,6 +19,8 @@ body
 main 
 {
     flex: 1 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-1 {
@@ -33,7 +35,7 @@ main
 
 .nav-1 ul li a 
 {
- color: #FFA400; 
+ color: #B8715B; 
  font-size: 22px;
  font-family: 'Cinzel', serif;
 }
@@ -55,11 +57,18 @@ margin-right: 40px;
     border-bottom: 3px solid #247BA0;
 }
 
+.home-img 
+{
+    min-height: 300px;
+    max-height: 400px;
+    background: transparent;
+    min-width: 100%;
+}
 .card-1 
 {
-    background-color: #247BA0;
-    margin-top: 0px;
-    height: 500px;
+    background-image: url("../images/aryanne-valgas_2.jpg");
+    margin: 0px;
+    height: 700px;
 }
 
 .card-1 span
@@ -69,12 +78,22 @@ margin-right: 40px;
     margin: 30px;
 }
 
-.card-1 p 
+.welcome
 {
-    padding: 100px;
     font-family: 'Taviraj', serif;
-    color: #7A7A7A;
+    font-size: 40px;
+    text-align: left;
+    opacity: 1;
+}
+
+
+.slogan 
+{
+    font-family: 'Taviraj', serif;
     font-size: 30px;
+    text-align: right;
+    /* width: 100%; */
+    opacity: 1;
 }
 .card-2
 {
@@ -83,9 +102,35 @@ margin-right: 40px;
     min-height: 500px;
 }
 
+.about-us
+{
+    font-size: 20px;
+    font-family: 'Adamina', serif;
+    margin-bottom: 100px;
+    color: rgb(68, 67, 67);
+}
+
+.state
+{
+    padding: 30px !important;
+    border-top: 1px #247BA0 solid;
+    border-bottom: 1px #247BA0 solid;
+}
+
+.home-center
+{
+    color: #FFFCFF;
+    background-color: rgb(122,122,122, .8);
+    min-height: 40px !important;
+    font-family: 'Taviraj', serif;
+    width: 100%;
+
+
+}
 .temp-logo-cont {
     margin-top: 120px;
     text-align: center;
+    height: 250px;
 }
 
 .temp-logo-img
@@ -103,7 +148,7 @@ margin-right: 40px;
     height: 27px;
     padding: 3px;
     background-color: #7A7A7A;
-    margin-top: 30px;
+    margin-top: 0px;
     color: #FFFCFF;
 }
 .card-title-1 
@@ -111,8 +156,17 @@ margin-right: 40px;
     font-family: 'Cinzel', serif;
     margin-bottom: 40px!important;
     font-size: 50px!important;
+    color: #B8715B;
+}
+
+.card-title-2 
+{
+    font-family: 'Cinzel', serif;
+    margin-bottom: 40px!important;
+    font-size: 40px!important;
     color: #7A7A7A;
 }
+
 .serv
 {
     align-items: center;
@@ -122,7 +176,7 @@ margin-right: 40px;
     min-height: 200px;
     min-width: 120px;
     margin: 0 5% 0 5%;
-    background-color: #247BA0;
+    background-color: rgb(68, 67, 67);
     color: #FFFCFF;
     font-size: 20px;
     display: flex;
@@ -141,7 +195,7 @@ a.serv1
 
 a.serv1:hover 
 {
-    background-color: #FFA400;
+    background-color: #B8715B;
     color: #FFFCFF;
     text-decoration: none;
     
@@ -153,7 +207,7 @@ a.serv1:hover
     margin-top: 20px!important;
     margin-bottom: 40px!important;
     font-size: 45px!important;
-    color: #7A7A7A;
+    color: #B8715B;
 }
 
 .input-field label 
@@ -168,14 +222,14 @@ a.serv1:hover
 
 .val-icon
 {
-    color: #FFA400;
+    color: #B8715B;
     text-align: center;
     margin: 10 0;
 }
 
 .value 
 {
-    background-color:#247BA0;
+    background-color:rgb(68, 67, 67);
     min-height: 250px;
     margin: 0 3%;
     padding: 15px;
@@ -204,6 +258,10 @@ a.serv1:hover
     text-align: center;
     align-content: center;
     margin-top: 30px;
+    background-color: #7A7A7A;
+    padding: 40px;
+    width:80%;
+
 }
 .form-card 
 {
@@ -227,7 +285,7 @@ a.serv1:hover
     font-family: 'Cinzel', serif;
     margin-bottom: 40px!important;
     font-size: 50px!important;
-    color: #7A7A7A;
+    color: black;
     margin-left: 40px;
 }
 .what-slogan
@@ -238,6 +296,8 @@ a.serv1:hover
 .mech-icon
 {
     color: #7A7A7A;
+    margin: 5px;
+    font-size: .7rem!important;
 }
 
 .submit-form
@@ -257,5 +317,12 @@ a.serv1:hover
 {
     border: 1px solid black;
 }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    min-width: 100%;
+}
+
 
 
