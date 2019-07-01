@@ -23,14 +23,20 @@
         <nav class="no-shadows border-bottom">
             <div class="nav-wrapper nav-1">
                 <a href="../index.html" class="brand-logo fam-logo">Familiar Engineering</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
                     <li><a href="./services.html">Services</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                     <li><a href="./about.html">About</a></li>
                 </ul>
             </div>
         </nav>
-
+        <div class="parallax-window" data-parallax="scroll" data-image-src="../assets/images/dorien-beernink.jpg"></div>
         <div class="card no-shadows card-2">
             <div class="card-content">
                 <div class="row center-align">
@@ -43,18 +49,21 @@
                 <div class="row about-us center-align">
                     <div class="col s1 center-align"></div>
                     <div class="col s10 center-align state">
-                        <span class="center-align">Familiar Engineering is a mechanical engineering firm based in California with projects across the country. We are committed to delivering the best product possible to our clients. If you have a concept that you would like to see come to life or if you have the mechanics worked out, Familiar Engineering can help.</span>
+                        <span class="center-align">Familiar Engineering is a mechanical engineering firm based in
+                            California with projects across the country. We are committed to delivering the best product
+                            possible to our clients. If you have a concept that you would like to see come to life or if
+                            you have the mechanics worked out, Familiar Engineering can help.</span>
                     </div>
                     <div class="col s1 center-align"></div>
                 </div>
-                <div class="row center-align">
-                        <div class="col s4 center-align"></div>
-                        <div class="col s4 center-align">
-                            <span class="card-title center-align card-title-2">Our Values</span>
-                        </div>
-                        <div class="col s4 center-align"></div>
+                <!-- <div class="row center-align">
+                    <div class="col s4 center-align"></div>
+                    <div class="col s4 center-align">
+                        <span class="card-title center-align card-title-2">Our Values</span>
                     </div>
-                <div class="row center-align">
+                    <div class="col s4 center-align"></div>
+                </div> -->
+                <!-- <div class="row center-align">
                     <div class="col s4 center-align">
                         <div class="value"><i class="material-icons val-icon medium">stars</i>
                             <p class="val-name">QUALITY</p>
@@ -73,8 +82,8 @@
                             <p class="val-desc">We love what we do! We are excited to help you reach your goals.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row center-align">
+                </div> -->
+                <!-- <div class="row center-align">
                     <div class="col s4 center-align justify-contents-center">
                         <div class="value"><i class="material-icons val-icon medium">people</i>
                             <p class="val-name">COMMUNICATION</p>
@@ -95,19 +104,12 @@
                                 honor and sincerity.</p>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="row center-align">
-                    <div class="col s4 center-align"></div>
-                    <div class="col s4 center-align">
-                        value
-                    </div>
-                    <div class="col s4 center-align"></div>
                 </div> -->
-
             </div>
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+        <script src="../parallax.min.js"></script>
         <script>
             $(".button-collapse").sideNav();
         </script>

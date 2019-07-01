@@ -1,0 +1,19 @@
+{
+  "name": "jamal_profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluecam74/jamal_profile.git"
+  },
+  "author": "Malak Abdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluecam74/jamal_profile/issues"
+  },
+  "homepage": "https://github.com/bluecam74/jamal_profile#readme"
+}

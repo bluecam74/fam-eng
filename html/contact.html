@@ -8,12 +8,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Adamina|Cinzel|Economica|Julius+Sans+One|Playfair+Display+SC|Taviraj&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Adamina|Cinzel|Economica|Julius+Sans+One|Playfair+Display+SC|Taviraj&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
-    
+
     <title>Familiar Engineering</title>
 </head>
+
 <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDX0XS36PNSbt2Dmtq9N6W3kjeE5EMjfeI",
+            authDomain: "familiar-engineering.firebaseapp.com",
+            databaseURL: "https://familiar-engineering.firebaseio.com",
+            projectId: "familiar-engineering",
+            storageBucket: "familiar-engineering.appspot.com",
+            messagingSenderId: "926807500378",
+            appId: "1:926807500378:web:3195053e649ba1a4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
     <main>
         <nav class="no-shadows border-bottom">
             <div class="nav-wrapper nav-1">
@@ -39,6 +62,7 @@
             <div class="col s12" style="margin: 0;">
                 <div class="card form-card center-align">
                     <div class="card-content">
+                        <div class="row" id="errorHeader1"></div>
                         <div class="row">
                             <form class="col s12 contact-form">
                                 <div class="row">
@@ -52,29 +76,31 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                        <div class="input-field col s6">
-                                                <input id="email" type="email" class="validate">
-                                                <label for="email">Email</label>
-                                            </div>
-                                        <div class="input-field col s6">
-                                          <input id="icon_telephone" type="tel" class="validate">
-                                          <label for="icon_telephone">Telephone</label>
-                                        </div>
-                                      </div>
-                                <div class = "row">
-                                        <div class = "input-field col s12">
-                                           <textarea id = "address" class = "materialize-textarea"></textarea>
-                                           <label for = "address">Address</label>
-                                        </div>
-                                     </div>
+                                    <div class="input-field col s6">
+                                        <input id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <input id="phone" type="tel" class="validate">
+                                        <label for="phone">Telephone</label>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="input-field col s12">
-                                        <textarea placeholder="How can we help?"id="textarea1" class="materialize-textarea"></textarea>
+                                        <textarea id="address" class="materialize-textarea"></textarea>
+                                        <label for="address">Address</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <textarea placeholder="How can we help?" id="textarea1"
+                                            class="materialize-textarea"></textarea>
                                         <label for="textarea1">Message</label>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <button class="btn waves-effect waves-light submit-form" type="submit" name="action">Submit
+                                    <button class="btn waves-effect waves-light submit-form" id="submit" type="submit"
+                                        name="action">Submit
                                         <i class="material-icons right">cloud</i>
                                     </button>
                                 </div>
@@ -86,11 +112,12 @@
             <!-- <div class="col s1"></div>  -->
         </div>
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
         <script src="../assets/js/contact.js"></script>
         <script>
-           $(".button-collapse").sideNav();
+            $(".button-collapse").sideNav();
         </script>
     </main>
 </body>
