@@ -302,15 +302,21 @@ a.serv1:hover
 
 .submit-form
 {
-    background-color: #247BA0;
+    background-color: #247BA0 !important;
 }
 
 .submit-form:hover 
 {
-    background-color: #FFA400;
+    background-color: #B8715B !important;
     color: #FFFCFF;
     text-decoration: none;
     
+}
+
+#errorHeader1
+{
+    font-size: 18px;
+    font-family: 'Adamina', serif;
 }
 
 .border_test 
